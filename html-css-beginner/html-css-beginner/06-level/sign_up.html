@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bit Academy Sign Up</h1>
+    <form>
+        <!-- Standaard input elements -->
+        <label for="name">Naam:</label>
+        <br>
+        <input type="text" id="name">
+        <br>
+        <label for="mail">Email adres:</label><br>
+        <input type="email" name="emailadres" id="mail">
+        <br>
+        <label for="telefoon">Telefoon nummer:</label><br>
+        <input type="tel" id="telefoon">
+        <br>
+        <label for="pin">Pin code:</label><br>
+        <input type="password" id="pin" name="pin"><br>
+        <br>
+
+        <!-- Dropdown menu  -->
+        <label for="provincie">Provincie</label>
+        <select name="provincie" id="provincie">
+            <option value="1">Drenthe</option>
+            <option value="2">Flevoland</option>
+            <option value="3">Friesland</option>
+            <option value="4">Gelderland</option>
+            <option value="5">Groningen</option>
+            <option value="6">Limburg</option>
+            <option value="7">Noord Brabant</option>
+            <option value="8">Noord Holland</option>
+            <option value="9">Overijssel</option>
+            <option value="10">Zuid Holland</option>
+            <option value="11">Utrecht</option>
+            <option value="12">Zeeland</option>
+        </select>
+
+        <!-- Radio vraag: -->
+        <p>Hou je van voetbal?</p>
+        <input type="radio" name="antwoord" value="Ja" id="option1">
+        <label for="option1">Ja</label>
+        <br>
+        <input type="radio" name="antwoord" value="Nee" id="option2">
+        <label for="option2">Nee</label>
+        <br>
+        <br>
+        <!--  Checkbox dagen: -->
+        <p>Favoriete dagen in de week:</p>
+        <label for="maandag">Maandag</label>
+        <br>
+        <input type="checkbox" id="maandag" name="dagen" value="maandag">
+        <br>
+        <label for="dinsdag">Dinsdag</label>
+        <br>
+        <input type="checkbox" id="dinsdag" name="dagen" value="dinsdag">
+        <br>
+        <label for="woensdag">Woensdag</label>
+        <br>
+        <input type="checkbox" id="woensdag" name="dagen" value="woensdag">
+        <br>
+        <label for="donderdag">Donderdag</label>
+        <br>
+        <input type="checkbox" id="donderdag" name="dagen" value="donderdag">
+        <br>
+        <label for="vrijdag">Vrijdag</label>
+        <br>
+        <input type="checkbox" id="vrijdag" name="dagen" value="vrijdag">
+        <br>
+        <label for="zaterdag">Zaterdag</label>
+        <br>
+        <input type="checkbox" id="zaterdag" name="dagen" value="zaterdag">
+        <br>
+        <label for="zondag">Zondag</label>
+        <br>
+        <input type="checkbox" id="zondag" name="dagen" value="zondag">
+        <br>
+        <br>
+        <label for="bio">Schrijf een bio</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="bio..."></textarea>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

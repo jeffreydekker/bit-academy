@@ -1,0 +1,49 @@
+body
+{
+    background-color: paleturquoise;
+}
+
+h1
+{
+    font-size: 50px;
+    color: darkblue;
+}
+
+h2
+{
+    font-size: 35px;
+    color: darkblue;
+}
+img
+{
+    margin-right: auto;
+    width: 30%;
+    height: 1%;
+} 
+
+span{
+    color: yellowgreen;
+}
+
+section {
+    font-size: large;
+    
+}
+header{
+    border-bottom-style: ridge;
+}
+
+article{
+    background-color: antiquewhite;
+} 
+
+nav{
+    background-color: antiquewhite;
+    text-align: center;
+    font-size: 1.2rem;
+}
+footer{
+    background-color: rgba(172, 211, 89, 0.182);
+    padding: 100px;
+    text-align: center;
+}

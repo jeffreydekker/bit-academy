@@ -1,0 +1,248 @@
+/* WOLFRAM ALPHA CLONE CSS */
+
+/* nav bar styling: */
+.navBar {
+    text-align: right;
+}
+.SIGNIN {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13.5px;
+    border: 1px solid orange;
+    color: orange;
+    padding: 5px;
+    margin-left: 20px;
+}
+.SIGNIN:hover {
+    background-color: orange;
+    color: white;
+}
+.navUpgrade,
+.navApps {
+    border: 0px;
+    outline: 0px;
+}
+.navUpgrade:hover {
+    color: orange;
+    cursor: pointer;
+}
+.navApps:hover {
+    color: orange;
+    cursor: pointer;
+}
+.TOUR {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13.5px;
+}
+.TOUR:hover {
+    color: orange;
+    cursor: pointer;
+}
+nav {
+    padding-right: 10px;
+}
+
+/* logo and search bar styling */
+header {
+    border-bottom: 1px solid rgb(222, 222, 222);
+    padding: 3px;
+}
+select,
+option {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+img {
+    padding-top: 2rem;
+    width: 500px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+p {
+    text-align: center;
+    color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 35px;
+    border-radius: 10px;
+    border: 3px solid orange;
+}
+input:placeholder-shown {
+    font-style: italic;
+    padding: 5px;
+    padding-left: 2px;
+}
+div {
+    margin-top: 1rem;
+    border: solid 1px rgb(176, 176, 176);
+    height: 100px;
+    width: 100%;
+    background-color: rgb(228, 228, 228);
+}
+div:hover {
+    background: white;
+}
+.divP {
+    color: black;
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/* styling the table contents  */
+/* headers: */
+.purpleHeader {
+    color: purple;
+    text-decoration: none;
+}
+.greenHeader {
+    color: rgb(58, 156, 58);
+}
+.redHeader {
+    color: rgb(255, 87, 87);
+}
+.blueHeader {
+    color: rgb(112, 219, 255);
+}
+
+/* table data styling */
+th {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+table {
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table {
+    border: solid 1px rgb(198, 198, 198);
+    border-radius: 3px;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+}
+.icon {
+    padding-right: 5px;
+}
+.math {
+    color: purple;
+}
+.science {
+    color: green;
+}
+.culture {
+    color: rgb(210, 42, 0);
+}
+.life {
+    color: rgb(78, 173, 173);
+}
+
+/* hover effects for table contents  */
+.math:hover {
+    border: solid 2px purple;
+}
+.science:hover {
+    border: solid 2px green
+}
+.culture:hover {
+    border: solid 2px red;
+}
+.life:hover {
+    border: solid 2px rgb(112, 219, 255);
+}
+
+/* individual table header colors */
+a{
+    text-decoration: none;
+}
+.purpleHeader:visited{
+    color: purple;
+}
+.purpleHeader:hover{
+    text-decoration: none;
+    color: purple;
+}
+.purpleHeader:focus {
+    color: yellow;
+}
+a:hover,
+a:active {
+    text-decoration: none;
+    
+    color: purple;
+}
+
+.greenHeader{
+    text-decoration: none;
+    color: green;
+}
+.greenHeader:visited{
+    text-decoration: none;
+    color: green;
+}
+.greenHeader:focus{
+    text-decoration: none;
+    color: green;
+}
+.greenHeader:hover, active{
+    text-decoration: none;
+    color: green;
+}
+
+
+.redHeader:visited{
+    text-decoration: none;
+    color: rgb(255, 87, 87);
+}
+.redHeader{
+    text-decoration: none;
+    color: rgb(255, 87, 87);
+}
+.redHeader:focus{
+    text-decoration: none;
+    color: rgb(255, 87, 87);
+}
+.redHeader:hover, active{
+    text-decoration: none;
+    color: rgb(255, 87, 87);
+}
+
+
+
+
+.blueHeader:visited{
+    text-decoration: none;
+    color: rgb(78, 173, 173);
+}
+.blueHeader{
+    text-decoration: none;
+    color: rgb(78, 173, 173);
+}
+.blueHeader:focus{
+    text-decoration: none;
+    color: rgb(78, 173, 173);
+}
+.blueHeader:hover, active{
+    text-decoration: none;
+    color: rgb(78, 173, 173);
+}
+
+td{
+    width: auto;
+}

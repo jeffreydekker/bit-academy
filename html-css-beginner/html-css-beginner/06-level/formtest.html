@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form tests</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>HTML Forms</h1>
+
+    <!-- standard format of forms: -->
+    <form>
+        <!-- placeholders create pre-written information in de form to guide the user -->
+        <label for="username">Enter username:</label>
+        <input type="text" id="username" name="username" placeholder="Username">
+
+        <label for="email">Enter email:</label>
+        <input type="email" id="email" name="email" placeholder="email">
+
+        <label for="password">Create password:</label>
+        <input type="password" id="password" name="password" placeholder="password">
+
+        <!-- how to do single option buttons aka radio forms: -->
+        <p>Select your age:</p>
+        <input type="radio" name="age" value="0-25" id="option1">
+        <label for="option1">0-25</label>
+        <input type="radio" name="age" value="26-50" id="option2">
+        <label for="option2">26-50</label>
+        <input type="radio" name="age" value="50+" id="option3">
+        <label for="option3">50+</label>
+
+        <!-- how to do a drop down menu: -->
+        <label for="question">Enter a security question answer to one of the questions in the drop down menu:</label>
+        <select name="question" id="question">
+            <option value="q1">What colour is your bugatti?</option>
+            <option value="q2">What is your favourite pre workout?</option>
+            <option value="q3">Who is the best person ever?</option>
+        </select>
+
+        <!-- how to do a bigger size text input field: -->
+        <label for="bio">Enter a bio</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="bio..."></textarea>
+    </form>
+    
+</body>
+</html>
