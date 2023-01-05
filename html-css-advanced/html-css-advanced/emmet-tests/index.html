@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ul>li*5 -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <!-- define children with > (nav>ul>li) -->
+    <nav>
+        <ul>
+            <li></li>
+        </ul>
+    </nav>
+    <!-- define sibling with + (div+p+p+p+p) -->
+    <div></div>
+    <p></p>
+    <p></p>
+    <p></p>
+
+    <!-- let an element climb up with ^ (div+div>p>span+em+bq vs iv+div>p>span+em^bq) -->
+    <!-- ex 1: -->
+    <div></div>
+    <div>
+        <p>
+            <span></span><em></em>
+            <blockquote></blockquote>
+        </p>
+    </div>
+
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+        <blockquote></blockquote>
+    </div>
+    <!-- ex 2: -->
+    <!-- div+div>p>span+em^^bq -->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+    </div>
+    <blockquote></blockquote>
+
+    <!-- ul>li.<name class>$@1*5 -->
+    <ul>
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+        <li class="item5"></li>
+    </ul>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* select everything: */
+* {
+
+}
+
+/* select multiple elements at once: */
+h1, .leuk{
+
+}
+
+/* select certain elements in other elements (without exluding other elements: */
+h1 .leuk{
+
+}
+
+/* select certain elements in other elements (has to be specific): */
+
+h1 > .leuk{
+
+}
+
+/* select every element AFTER a certain element:  */
+h1 + .leuk{
+
+}
+
+
